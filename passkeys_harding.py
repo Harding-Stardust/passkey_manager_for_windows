@@ -22,7 +22,7 @@ python passkeys_harding.py --domains top-1m.txt --guess --history
 
 from __future__ import annotations
 
-__version__ = "2026-09-24 16:41:47"
+__version__ = "2026-10-07 12:01:14"
 __author__ = "Harding"
 __description__ = __doc__
 __copyright__ = "Copyright 2026"
@@ -67,7 +67,7 @@ G_KNOWN_DOMAINS: list[str] = [
     "okta.com", "auth0.com", "1password.com", "bitwarden.com", "proton.me", "account.proton.me", "protonmail.ch"
     "kraken.com", "coinbase.com", "binance.com", "nintendo.com", "sony.com", "playstation.com",
     "steampowered.com", "epicgames.com", "discord.com", "slack.com", "atlassian.com", "id.atlassian.com",
-    "twitch.tv", "gnosis.io",
+    "twitch.tv", "gnosis.io", "www.canva.com", "claude.ai",
     
     # Swedish
     "bankid.com", "swedbank.se", "handelsbanken.se", "seb.se", "nordea.se", "skatteverket.se",
